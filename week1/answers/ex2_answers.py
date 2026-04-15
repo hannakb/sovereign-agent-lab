@@ -11,7 +11,12 @@ Run `python grade.py ex2` to check for obvious issues.
 # Look at [TOOL_CALL] lines in your terminal output.
 # Example: ["check_pub_availability", "get_edinburgh_weather"]
 
-TASK_A_TOOLS_CALLED = []
+TASK_A_TOOLS_CALLED = [
+    "check_pub_availability", 
+    "calculate_catering_cost",
+    "get_edinburgh_weather",
+    "generate_event_flyer"
+    ]
 
 # Which venue did the agent confirm? Must be one of:
 # "The Albanach", "The Haymarket Vaults", or "none"
